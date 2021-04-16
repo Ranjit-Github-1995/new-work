@@ -1,0 +1,232 @@
+/* Responsive css */
+
+/* Responsive nav css */
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1024px) {
+    .main_head .navbar-nav .clickD {
+        position: absolute;
+        right: -5px;
+        top: 50%;
+        width: 10px;
+        height: 5px;
+        border-top: 5px solid #fff;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        cursor: pointer;
+        display: block;
+        background-size: 10px;
+        z-index: 9999;
+        transform: translateY(-50%);
+    }
+    .main_head ul.navbar-nav li .clickD+.sub-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: absolute;
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (min-width: 992px){
+    
+    .mobile_logo{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    /*.overlay{
+        display: none;
+    }
+    .fullscreen{
+        display: none;
+    }*/
+    .navbar{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_head .navbar-nav .clickD {
+        top: 25px;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: relative;
+        top: 100%;
+    }
+}
+
+
+/* Responsive nav end */
+
+
+@media (max-width: 991px){
+    
+    
+}
+
+
+@media (max-width: 767px){
+    
+    
+}
+
+
+
+@media (max-width: 575px){
+    
+    
+    
+    
+}
+
+/**
+
+@media (min-width: 376px) and (max-width: 575px){
+    
+    .carousel-inner{
+        width: 100%;
+    }
+    .carousel-item{
+        width: 100%;
+    }
+    .project .project_des_info{
+        height: 1000px;
+    }
+    .project .project_des .left_iamge_box{
+        width: 93%;
+        bottom: 610px;
+        height: 360px;
+    }
+    .project .project_des .pra{
+        top: -360px;
+    }
+    .carousel-control-next{
+        left: 46%;
+        right: 0;
+        top: 438px;
+    }
+    .carousel-control-prev{
+        left: 27%;
+        top: 438px;
+        right: 0;
+    }
+    .get_in a{
+        width: 60%;
+        padding: 10px;
+    }
+    .fullscreen{
+        margin-top: -20%;
+    }
+    
+}
+
+@media (min-width: 468px) and (max-width:575px){
+    
+    .project .project_des .right_content{
+        bottom: 435px;
+    }
+    .project .project_des .pra{
+        top: -283px;
+    }
+    .project .project_des_info{
+        height: 860px;
+    }
+    .project .project_des .left_iamge_box{
+        bottom: 470px;
+    }
+    .project .project_des .right_content{
+        bottom: 290px;
+    }
+    
+}
+
+@media (min-width: 376px) and (max-width:467px){
+    
+    .project .project_des .right_content{
+        bottom: 377px;
+    }
+    
+}
+
+
+@media (min-width: 320px) and (max-width: 375px){
+    
+    .carousel-item{
+        width: 100%;
+    }
+    .carousel-inner img{
+        height: 300px;
+    }
+    .carousel-control-next{
+        left: 46%;
+        right: 0;
+        top: 315px;
+    }
+    .carousel-control-prev{
+        left: 27%;
+        top: 315px;
+        right: 0;
+    }
+    .africa_rising .left_con h5{
+        font-size: 28px;
+    }
+    .project_gallery, .project, .africa_rising, .gallery, .our_location{
+        margin-top: 30px;
+    }
+    .project h2{
+        top: 0%;
+    }
+    .project .project_des .left_iamge_box{
+        width: 90%;
+    }
+    .project .project_des_info{
+        height: 975px;
+    }
+    .project .project_des .left_iamge_box{
+        bottom: 590px;
+        height: 365px;
+    }
+    .project .project_des .right_content{
+        bottom: 410px;
+    }
+    .project .project_des .pra{
+        width: 95%;
+        top: -405px;
+    }
+    .project .project_list_tab{
+        padding: 70px 0 20px 0px;
+    }
+    .project .project_des .right_content h5{
+        font-size: 30px;
+    }
+    .project .project_des .right_content h3{
+        font-size: 35px;
+    }
+    .project .project_des .right_content span{
+        line-height: 30px;
+        font-size: 19px;
+    }
+    .get_in a{
+        width: 70%;
+    }
+    .fullscreen{
+        margin-top: -25%;
+    }
+    
+}
+**/
+
+
+
+
+
+
+
+
+

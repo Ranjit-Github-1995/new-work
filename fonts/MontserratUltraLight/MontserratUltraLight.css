@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'MontserratUltraLight';
-    src: url('MontserratUltraLight.eot');
-    src: url('MontserratUltraLight.eot') format('embedded-opentype'),
-         url('MontserratUltraLight.woff2') format('woff2'),
-         url('MontserratUltraLight.woff') format('woff'),
-         url('MontserratUltraLight.ttf') format('truetype'),
-         url('MontserratUltraLight.svg#MontserratUltraLight') format('svg');
-}
