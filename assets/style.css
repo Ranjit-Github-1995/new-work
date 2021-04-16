@@ -1,0 +1,28 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+
+
+/* DEMOS */
+
+#div_demo {
+	width:427px;
+	height:240px;
+	position: relative;
+}
+
+#div_demo span {
+	display: block;
+	position: relative;
+	margin:0 auto;
+	color:#fff;
+	font-size:3em;
+	padding-top:40px;
+	font-weight: bold;
+	text-align: center;
+	width:250px;
+	
+}
+

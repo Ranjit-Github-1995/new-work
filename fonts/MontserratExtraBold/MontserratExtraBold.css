@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url('MontserratExtraBold.eot');
+    src: url('MontserratExtraBold.eot') format('embedded-opentype'),
+         url('MontserratExtraBold.woff2') format('woff2'),
+         url('MontserratExtraBold.woff') format('woff'),
+         url('MontserratExtraBold.ttf') format('truetype'),
+         url('MontserratExtraBold.svg#MontserratExtraBold') format('svg');
+}
